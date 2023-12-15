@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+p{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    border: black solid 2px;
+    width:40px ;
+    height:40px ;
+}
+
+h1{
+    text-align: center;
+    color: rgb(155, 155, 254);
+}
+
+.contenedor1{
+    place-content: center center;
+    display: flex;
+} 
+
+.contenedorCarton{
+    border: solid 5px red;
+    margin: 5%;
+    background-color: white;
+}
+
+.contenedorCarton h1{
+    background-color: blue;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.contenedorBola{
+    margin: 5%;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.circulo{
+    border: solid 5px red;
+    border-radius: 50%; 
+    padding: 50px;
+    background-color: grey;
+    background: radial-gradient(circle at center, grey);
+}
+
+.numeroBola{
+    margin-left: 30px;
+}
+
+.carton{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23% 23%;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    margin-top: 10%;
+    background-color: white;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+.resultados{
+    border: solid red 5px;
+}
